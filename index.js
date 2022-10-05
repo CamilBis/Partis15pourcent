@@ -1,5 +1,11 @@
 import fetch from "node-fetch";
 
+function afficherResultats(res) {
+    Object.entries(res).forEach(([key, val]) => {
+        console.log(key + ":", val);
+    });
+}
+
 async function getQP() {
     const res = await fetch("https://www.dgeq.org/resultats.json");
     const resJson = await res.json();
@@ -32,4 +38,4 @@ async function getQP() {
     return qp;
 }
 
-getQP().then(console.log).catch(console.log)
+getQP().then(afficherResultats).catch(console.log)
