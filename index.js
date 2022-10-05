@@ -15,7 +15,7 @@ async function getQP() {
         "P.L.Q./Q.L.P.": "PLQ",
         "Q.S.": "QS",
         "P.Q.": "PQ",
-        "P.C.Q.-E.E.D.": "PCQ"
+        "P.C.Q-E.E.D.": "PCQ"
     };
 
     const qp = {
