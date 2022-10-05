@@ -1,0 +1,23 @@
+{
+  "name": "partis15pourcent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamilBis/Partis15pourcent.git"
+  },
+  "author": "camil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamilBis/Partis15pourcent/issues"
+  },
+  "homepage": "https://github.com/CamilBis/Partis15pourcent#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
